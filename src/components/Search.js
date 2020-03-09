@@ -37,6 +37,7 @@ export default class Search extends Component {
              <Table>
              {this.state.meep.map(person => 
            <tr>
+         <td><img src={person.image}></img></td>
          <td>{person.name.first}</td>
          <td>{person.name.last}</td>
          <td>{person.email}</td>

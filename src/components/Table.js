@@ -8,6 +8,7 @@ export default class Table extends Component {
             <table className="table">
             <thead>
                 <tr>
+                <th scope="col">Picture</th>
                 <th scope="col">first name</th>
                 <th scope="col">last name</th>
                 <th scope="col">email</th>
